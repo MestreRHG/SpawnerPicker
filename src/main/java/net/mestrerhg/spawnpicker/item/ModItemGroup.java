@@ -8,5 +8,5 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
     public static final ItemGroup ITEMPICKER = FabricItemGroupBuilder.build(
-            new Identifier(SpawnPicker.MOD_ID, "itempicker"), () -> new ItemStack(ModItems.SPAWN_PICKER));
+            new Identifier(SpawnPicker.MOD_ID, "itempicker"), () -> new ItemStack(ModItems.OBSIDIAN_STICK));
 }

@@ -1,6 +1,8 @@
 {
-  "item.spawnpicker.spawn_picker" : "Spawn Picker",
   "item.spawnpicker.obsidian_stick": "Obsidian Stick",
+  "item.spawnpicker.spawn_picker": "Spawn Picker",
 
-  "itemGroup.spawnpicker.itempicker": "Item Picker"
+  "itemGroup.spawnpicker.itempicker": "Item Picker",
+
+  "item.spawnpicker.spawn_picker.found_spawner": "Spawner was Found"
 }

@@ -2,14 +2,19 @@ package net.mestrerhg.spawnpicker.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.mestrerhg.spawnpicker.SpawnPicker;
+import net.mestrerhg.spawnpicker.item.custom.SpawnPickerItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
     public static final Item SPAWN_PICKER = RegisterItem("spawn_picker",
-        new Item(new FabricItemSettings().group(ModItemGroup.ITEMPICKER)));
+        new SpawnPickerItem(new FabricItemSettings()
+                .group(ModItemGroup.ITEMPICKER)
+                .maxCount(1).rarity(Rarity.UNCOMMON)));
+
     public static final Item OBSIDIAN_STICK = RegisterItem("obsidian_stick",
         new Item(new FabricItemSettings().group(ModItemGroup.ITEMPICKER)));
 
