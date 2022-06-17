@@ -10,6 +10,8 @@ public class ModItems {
 
     public static final Item SPAWN_PICKER = RegisterItem("spawn_picker",
         new Item(new FabricItemSettings().group(ModItemGroup.ITEMPICKER)));
+    public static final Item OBSIDIAN_STICK = RegisterItem("obsidian_stick",
+        new Item(new FabricItemSettings().group(ModItemGroup.ITEMPICKER)));
 
     private static Item RegisterItem(String name, Item item)
     {
