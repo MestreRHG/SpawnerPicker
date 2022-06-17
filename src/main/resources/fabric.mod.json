@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "spawnpicker",
+  "version": "${version}",
+
+  "name": "Spawner Picker",
+  "description": "I thought, why can't I pick a spawner and use it? Now I (and you) can!",
+  "authors": [
+    "MestreRHG"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mestrerhg.spawnpicker.SpawnPicker"
+    ],
+    "client": [
+      "net.mestrerhg.spawnpicker.SpawnPickerClient"
+    ]
+  },
+  "mixins": [
+    "spawnpicker.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
